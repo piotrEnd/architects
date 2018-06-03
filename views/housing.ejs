@@ -1,0 +1,83 @@
+<% include layout.ejs %>
+
+    <section class="housing">
+        <div class="grid-container ">
+
+            <ul class="tabs flex-container menu-hover-lines align-center-middle small-vertical menu" data-active-collapse="true" data-tabs
+                id="collapsing-tabs">
+                <li class="tabs-title is-active">
+                    <a href="#panel1" aria-selected="true">modernizacja domu z lat 70-tych.</a>
+                </li>
+                <li class="tabs-title">
+                    <a href="#panel2">zespół budynków jednorodzinnych dwulokalowych.</a>
+                </li>
+                <li class="tabs-title">
+                    <a href="#panel3">110 metrowy dom dla rodziny 2+2</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="grid-container ">
+            <div class="tabs-content align-center " data-tabs-content="collapsing-tabs">
+                <div class="tabs-panel is-active" id="panel1">
+                    <p> Zlecono nam odświeżenie elewacji domu z lat 70-tych. Zadanie postawione przed nami brzmiało: "Nadajcie współczesny/świeży wygląd naszemu domowi przy użyciu niewielkich środków". W pierwszym wariancie zaproponowaliśmy powiększenie otworu okiennego w elewacji fronowej i wstawienie jednej dużej tafli szkła. Rozróżnienie materiałowe przypisaliśmy do trzech brył budynku. inwestor zdecydował się na drugi wariant - częściowe wykończenie elewacji płytami włóknocementowymi.</p>
+                    <div class="grid-container content">
+                        <div class="grid-x grid-padding-x grid-margin-y">
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_1_1a.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_1_2a.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs-panel " id="panel2">
+                    <p> Zespół pięciu budynków jednorodzinnych dwulokalowych.</p>
+                    <div class="grid-container content">
+                        <div class="grid-x grid-padding-x  grid-margin-y">
+                            <div class="cell ">
+                                <img src="/public/img/arch_miesz_2_1.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_2_2.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_2_3.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_2_4.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_2_5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs-panel " id="panel3">
+                    <p> Niespełna 110 metrowy dom zaprojektowany dla rodziny 2+2 na sześcioarowej działce.</p>
+                    <div class="grid-container content">
+                        <div class="grid-x grid-padding-x  grid-margin-y">
+                            <div class="cell ">
+                                <img src="/public/img/arch_miesz_3_1.jpg" alt="">
+                            </div>
+                            <div class="cell">
+                                <img src="/public/img/arch_miesz_3_2.jpg" alt="">
+                            </div>
+                            <div class="cell" data-tooltip tabindex="1" title="rzut" data-position="left" data-alignment="top">
+                                <img src="/public/img/arch_miesz_3_3.jpg" alt="">
+                            </div>
+                            <div class="cell" data-tooltip tabindex="1" title="lokalizacja obiektu na działce" data-position="left" data-alignment="top">
+                                <img src="/public/img/arch_miesz_3_4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <% include partials/footer.ejs %>

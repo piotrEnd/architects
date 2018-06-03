@@ -1,0 +1,23 @@
+.site {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-footer {
+    margin-top: auto;
+}
+
+.intro {
+    padding-top: 5rem;
+}
+
+.intro a {
+    opacity: 1;     //to overwrite general settings
+    transition: .35s;
+    filter: grayscale(1);
+
+    &:hover {
+        filter: grayscale(0);
+    }
+}

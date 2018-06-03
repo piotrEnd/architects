@@ -1,0 +1,94 @@
+<% include layout.ejs %>
+
+    <section class="info">
+
+        <div class="grid-container content">
+            <div class="grid-x grid-margin-x grid-padding-x">
+                <div class="small-12 large-4 cell">
+                    <p>Planujesz budowę domu, rozbudowę firmy? Szukasz indywidualnych rozwiązań projektowych? Chcesz mieszkać
+                        nowocześnie ale nie wiesz jak zagospodarować przestrzeń?</p>
+                    <p>Zastanawiasz się nad kupnem działki ale nie wiesz czy Twój dom marzeń będzie mógł zostać na niej zrealizowany
+                        a może masz już działkę i chcesz poznać wycenę projektu skrojonego na miarę Twoich potrzeb i oczekiwań?</p>
+                    <p>Zadzwoń do nas lub napisz wiadomość. Pomożemy Ci we wszystkim, co jest związane z budownictwem i wykańczaniem
+                        wnętrz.
+                    </p>
+                </div>
+
+                <div class="small-12 large-8 cell">
+                    <form>
+                        <div class="grid-x grid-margin-x ">
+                            <div class="cell medium-6 small-order-3 medium-order-1 ">
+                                <label for="email">email</label>
+                                <input type="text" id="email" class="contact-form-field" placeholder="adres e-mail">
+                            </div>
+
+                            <div class="cell medium-6 small-order-1 medium-order-2 ">
+                                <label for="name">imię i nazwisko</label>
+                                <input type="text" id="name" class="contact-form-field" placeholder="(opcjonalnie)">
+                            </div>
+
+                            <div class="cell medium-6 small-order-4 medium-order-3 ">
+                                <label for="subject">temat</label>
+                                <input type="text" id="subject" class="contact-form-field" placeholder="temat">
+                            </div>
+
+                            <div class="cell medium-6 small-order-2 medium-order-4 ">
+                                <label for="telephone">numer telefonu</label>
+                                <input type="tel" id="telephone" class="contact-form-field" placeholder="(opcjonalnie)">
+                            </div>
+
+                        </div>
+
+                        <div class="grid-x ">
+                            <label for="comment">wiadomość</label>
+                            <textarea name="comment" id="comment" cols="30" rows="4" class="contact-form-field" placeholder="wiadomość"></textarea>
+                        </div>
+                        <input type="submit" value="wyślij" class="button contact-submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact">
+
+        <div class="grid-container content">
+            <div class="grid-x grid-margin-x grid-padding-x">
+                <div class="cell ">
+                    <table class="hover unstriped ">
+                        <tbody>
+                            <tr>
+                                <td class="text-right">mk26 architektura </td>
+                                <td>Maciej Kłonowski</td>
+                            </tr>
+                            <tr>
+                                <td class="text-right">gsm</td>
+                                <td>
+                                    <a href="tel:+48665408824">+48 665 408 824</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text-right ">e-mail</td>
+                                <td>
+                                    <a href="mailto:biuro@mk26.pl">biuro@mk26.pl</a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="text-right">NIP</td>
+                                <td>599 30 23 841</td>
+                            </tr>
+                            <tr>
+                                <td class="text-right">adres</td>
+                                <td>ul. Mogileńska 10a/20,
+                                    <br>61-052 Poznań</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <% include partials/footer.ejs %>

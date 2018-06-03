@@ -1,0 +1,29 @@
+.contact-form-field {
+    border-radius: .2rem;
+    border-color: #ccc;
+    box-shadow: none;
+    background-color: #fcfcfc;
+}
+
+.contact-form-field:focus {
+    background-color: white;
+    border-color: #ccc;
+    box-shadow: none;
+}
+
+.contact-submit {
+    text-transform: uppercase;
+    padding: .7rem 2rem;
+    background-color: $typocolor;
+    letter-spacing: .05rem;
+}
+
+.contact-submit:hover {
+    background-color: $typocolor;
+    opacity: .8;
+}
+
+td:hover,
+td:hover a {
+    background: #efefef;
+}

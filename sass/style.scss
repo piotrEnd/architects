@@ -1,0 +1,71 @@
+//variables
+$global-flexbox: true;
+$didact: 'Didact Gothic', sans-serif;
+$francis: 'Francois One', sans-serif;
+$typocolor: #37474f;
+$border-radius: .2rem;
+$dropdownmenu-border: none;
+
+//general
+body {
+    background: url(/public/img/bg.jpg);
+    color: $typocolor;
+}
+
+img {
+    border-radius: .1rem;
+    box-shadow: 0 0.5px 0 0 #ffffff inset, 0 1px 2px 0 #B3B3B3;
+}
+
+.img-center {
+    align-self: center;
+}
+
+a,
+a:visited {
+    color: $typocolor;
+    opacity: .8;
+    transition: .25s;
+}
+
+a:hover {
+    color: $typocolor;
+    opacity: 1;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+    color: $typocolor;
+}
+
+//typography
+body {
+    font-family: $didact;
+}
+
+.offer h4,
+tr td:first-child,
+.team figcaption,
+.main-footer a {
+    font-family: $francis;
+}
+
+.top-bar,
+.top-bar ul {
+    font-size: 110%;
+    letter-spacing: .05rem;
+    font-family: $francis;
+}
+
+//spacing
+section,
+.main-footer {
+    padding-top: 2.5rem;
+}
+
+.cell {
+    padding: 1rem 0;
+}
+
+form .cell {
+    padding-top: 0;
+}
