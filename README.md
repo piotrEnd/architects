@@ -4,22 +4,20 @@
 
 **Information architecture:**
 
-The [original site](http://modernhouses.pl/)  needs several improvements, so I have reduced multi-level-navigation, merged sections 'about' and 'offer', removed dead-content, improved resposiveness. 
+The [original website](http://modernhouses.pl/) required reconstruction and multiple enhancements. I found the multi-level navigation to be cumbersome, especially on mobile devices. To address this, I consolidated the 'about' and 'offer' sections, removed outdated content, and improved the site's responsiveness.
 
 **Design:**
 
-Website uses Node.js, Express framwork and EJS view engine to manage content. Skeleton of the page is a mixture of XY-grid and flexbox. Aesthetics comes from Foundation v6 framework. Architects are designers themselves. For this reason I have reconstructed the existing site trying to visually keep with the original concept.
-
-
-Please >> [visit here]() <<
-
-> *June, 2018*
+The website utilizes Node.js, the Express framework, and the EJS view engine for content management. The page layout is a fusion of the XY-grid and flexbox. The visual appeal is drawn from the Foundation v6 framework. I undertook the task of reconstructing the existing site to ensure its visual continuity with the original concept.
 
 
 | technology stack  |
+| --- 		       |
 | --- 		       |
 | EJS 	       |
 | Foundation 6.4.2  |
 | Node.js	       |
 |  Express.js     |
 |  gulp    |
+
+> *June, 2018*
